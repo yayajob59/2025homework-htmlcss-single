@@ -141,7 +141,7 @@ a:hover {
 .banner {
     height: 454px;
     margin: 0 auto;
-    background-image: url(../assets/images/banner.png);
+    background-image: url(assets/images/banner.png);
     background-position: center;
     background-size: cover;
     display: block;
@@ -150,7 +150,7 @@ a:hover {
 .banner-2 {
     height: 454px;
     margin: 0 auto;
-    background-image: url(../assets/images/banner-2.png);
+    background-image: url(assets/images/banner-2.png);
     background-position: right 35% bottom 25%;
     background-size: cover;
     display: block;
