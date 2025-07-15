@@ -327,7 +327,7 @@ h6.date {
     margin-bottom: 20px;
     height: 390px;
     background-size: cover;
-    background: url(../assets/images/blog-01.png) bottom;
+    background: url(assets/images/blog-01.png) bottom;
 }
 
 .blog-img-02 {
