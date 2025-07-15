@@ -1,0 +1,410 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Newsreader', 'Noto Serif TC';
+    padding: 0;
+    margin: 0;
+    color: #343A40;
+
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #57A203;
+
+}
+
+.text-red {
+    color: #D74F4F;
+
+}
+
+.text-green {
+
+    color: #57A203;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1296px;
+
+    padding: 0 15px;
+
+
+}
+
+.con {
+    padding: 50px 0;
+}
+
+.d-flex {
+    position: relative;
+    display: flex;
+}
+
+.img-border img {
+    border-radius: 5px;
+}
+
+/*header*/
+.header {
+    padding: 36px 10px;
+
+}
+
+.header .top-box {
+    justify-content: space-between;
+
+}
+
+
+
+.search {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.search .search-input {
+    position: relative;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #DEE2E6;
+    padding: 10px 20px;
+
+    max-width: 270px;
+    width: 100%;
+
+}
+
+.search .search-input::placeholder {
+    color: #ADB5BD;
+}
+
+.search .icon {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    float: right;
+}
+
+.header .nav ul {
+    align-items: center;
+}
+
+.header .nav li {
+    margin: 0 20px;
+    line-height: 1.5;
+}
+
+.header .nav .btn a {
+    background: #569573;
+    color: #ffffff;
+    padding: 16px 24px;
+    border-radius: 30px;
+}
+
+.header .nav .btn a:hover {
+    color: #ffffff;
+}
+
+@media screen and (max-with:768px) {
+    .header.top-box {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .header .nav ul {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/*banner*/
+.banner {
+    height: 454px;
+    margin: 0 auto;
+    background-image: url(/assets/images/banner.png);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.banner-2 {
+    height: 454px;
+    margin: 0 auto;
+    background-image: url(/assets/images/banner-2.png);
+    background-position: right 35% bottom 25%;
+    background-size: cover;
+    display: block;
+}
+
+/*main*/
+.main {
+    padding: 80px 0;
+    ;
+}
+
+.breadcrumb-item.active {
+    color: #569573;
+}
+
+h1.title {
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 10%;
+    margin-bottom: 30px;
+
+}
+
+h6.date {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+
+    line-height: 19.2px;
+    letter-spacing: 10%;
+    color: #ADB5BD;
+
+
+}
+
+.info-box .text {
+    color: #6C757D;
+
+}
+
+.big-title {
+    font-family: 'Newsreader', 'Noto Serif TC', ;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 10%;
+    margin-bottom: 30px;
+}
+
+.info-box li {
+    margin-bottom: 5px;
+}
+
+.time-box {
+    background: #FFFBE5;
+    padding: 50px 0;
+}
+
+.time-box .item {
+    margin-bottom: 50px;
+    align-items: start;
+}
+
+.time-box .year {
+
+    color: #ffffff;
+    background: #6E6B67;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+
+    letter-spacing: 10%;
+    padding: 10px;
+
+
+}
+
+.time-box .month {}
+
+.item ul {
+    margin-left: 50px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 28.8px;
+    letter-spacing: 10%;
+
+}
+
+.item ul li {
+    margin-bottom: 30px;
+}
+
+.item .month {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+
+    line-height: 19.2px;
+    letter-spacing: 10%;
+    width: 50px;
+    color: #6C757D;
+
+
+}
+
+.item .month span {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+
+    line-height: 28.8px;
+    letter-spacing: 10%;
+}
+
+.time-box .text {
+    border-left: 1px solid #ADB5BD;
+    padding-left: 10px;
+    margin-left: 5px;
+
+    font-weight: 600;
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 5%;
+
+
+}
+
+.future-box {
+    max-width: 856px;
+    margin: 80px auto;
+
+
+}
+
+/*footer*/
+.footer {
+    padding: 30px 0;
+    color: #6E6B67;
+    text-align: center;
+    border-top: 1px solid #eeeeee;
+}
+
+.footer .text {
+    padding: 10px auto;
+
+
+
+
+}
+
+
+.container .blog {
+    width: 100%;
+    max-width: 856px;
+
+    padding: 0 15px;
+    margin: 0 auto;
+
+
+}
+
+.container .blog .text {
+    margin-bottom: 30px;
+}
+
+.blog-img-01 {
+    margin-bottom: 20px;
+    height: 390px;
+    background-size: cover;
+    background: url(/assets/images/blog-01.png) bottom;
+}
+
+.blog-img-02 {
+    margin-bottom: 20px;
+    height: 390px;
+    background-size: cover;
+    background: url(/assets/images/blog-02.png) bottom;
+}
+
+.blog-img-03 {
+    margin-bottom: 20px;
+    height: 390px;
+    background-size: cover;
+    background: url(/assets/images/blog-03.png) bottom;
+}
+
+.blog-img-04 {
+    margin-bottom: 20px;
+    height: 390px;
+    background-size: cover;
+    background: url(/assets/images/blog-04.png) bottom;
+}
+
+.hastag {
+    position: relative;
+}
+
+.hastag li {
+    padding: 5px 10px;
+    background: #E8E3DA;
+    display: table;
+    border-radius: 5px;
+    color: #6E6B67;
+    margin-right: 10px;
+
+
+}
+
+.read-box {
+    position: relative;
+}
+.read-box .item{
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.read-box .img-05 {
+    width: 196px;
+    height: 147px;
+    background-size:contain;
+    margin-right: 20px;
+    background: url(/assets/images/blog-05.png);
+}
+.read-box .img-06 {
+    width: 196px;   height: 147px;
+    background-size:contain;
+    margin-right: 20px;
+    background: url(/assets/images/blog-06.png);
+}
+.read-box .img-07 {
+    width: 196px;   height: 147px;
+    background-size:contain;
+    margin-right: 20px;
+    background: url(/assets/images/blog-07.png);
+}
+
+.read-box h5.title {
+    font-weight: 900;
+    font-style: Black;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 10%;
+}
+
+
+.read-box .btn{
+    float: right;
+    text-align: right;
+    color: #569573;
+
+}
