@@ -141,7 +141,7 @@ a:hover {
 .banner {
     height: 454px;
     margin: 0 auto;
-    background-image: url(assets/images/banner.png);
+    background-image: url(../images/banner-1.png);
     background-position: center;
     background-size: cover;
     display: block;
@@ -150,7 +150,7 @@ a:hover {
 .banner-2 {
     height: 454px;
     margin: 0 auto;
-    background-image: url(assets/images/banner-2.png);
+    background-image: url(../images/banner-2.png);
     background-position: right 35% bottom 25%;
     background-size: cover;
     display: block;
@@ -327,28 +327,28 @@ h6.date {
     margin-bottom: 20px;
     height: 390px;
     background-size: cover;
-    background: url(assets/images/blog-01.png) bottom;
+    background: url(../images/blog-01.png) bottom;
 }
 
 .blog-img-02 {
     margin-bottom: 20px;
     height: 390px;
     background-size: cover;
-    background: url(../assets/images/blog-02.png) bottom;
+    background: url(../images/blog-02.png) bottom;
 }
 
 .blog-img-03 {
     margin-bottom: 20px;
     height: 390px;
     background-size: cover;
-    background: url(../assets/images/blog-03.png) bottom;
+    background: url(../images/blog-03.png) bottom;
 }
 
 .blog-img-04 {
     margin-bottom: 20px;
     height: 390px;
     background-size: cover;
-    background: url(../assets/images/blog-04.png) bottom;
+    background: url(../images/blog-04.png) bottom;
 }
 
 .hastag {
@@ -378,19 +378,19 @@ h6.date {
     height: 147px;
     background-size:contain;
     margin-right: 20px;
-    background: url(../assets/images/blog-05.png);
+    background: url(../images/blog-05.png);
 }
 .read-box .img-06 {
     width: 196px;   height: 147px;
     background-size:contain;
     margin-right: 20px;
-    background: url(../assets/images/blog-06.png);
+    background: url(../images/blog-06.png);
 }
 .read-box .img-07 {
     width: 196px;   height: 147px;
     background-size:contain;
     margin-right: 20px;
-    background: url(../assets/images/blog-07.png);
+    background: url(../images/blog-07.png);
 }
 
 .read-box h5.title {
