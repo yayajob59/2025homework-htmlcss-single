@@ -141,7 +141,7 @@ a:hover {
 .banner {
     height: 454px;
     margin: 0 auto;
-    background-image: url(../images/banner-1.png);
+    background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
     display: block;
@@ -390,7 +390,7 @@ h6.date {
     width: 196px;   height: 147px;
     background-size:contain;
     margin-right: 20px;
-    background: url(../images/blog-07.png);
+    background:url(../images/blog-07.png)
 }
 
 .read-box h5.title {
